@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SC AIO — Support</title>
+<style>
+  :root {
+    --void:#0A0D12; --line:#1B232D; --soft:#161D26;
+    --text:#DCD8D0; --bone:#E7E4DC; --muted:#8A94A0; --dim:#5C6672;
+    --amber:#E8A33D;
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; padding:0; background:var(--void); color:var(--text);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap { max-width:44rem; margin:0 auto; padding:3rem 1.5rem 5rem; }
+  header { border-bottom:1px solid var(--line); padding-bottom:1.75rem; margin-bottom:2.5rem; }
+  h1 { margin:0 0 .35rem; font-size:1.9rem; letter-spacing:-.01em; color:var(--bone); }
+  .sub { margin:0; color:var(--muted); font-size:.95rem; }
+  h2 {
+    margin:2.5rem 0 .75rem; font-size:.72rem; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--amber); font-weight:600;
+  }
+  p { margin:0 0 1rem; }
+  a { color:var(--amber); text-decoration:none; border-bottom:1px solid rgba(232,163,61,.35); }
+  a:hover { border-bottom-color:var(--amber); }
+  ul { margin:0 0 1rem; padding-left:1.15rem; }
+  li { margin-bottom:.45rem; }
+  .card {
+    background:var(--soft); border:1px solid var(--line); border-radius:10px;
+    padding:1.15rem 1.25rem; margin-bottom:1rem;
+  }
+  .note { color:var(--dim); font-size:.88rem; }
+  footer {
+    margin-top:3.5rem; padding-top:1.5rem; border-top:1px solid var(--line);
+    color:var(--dim); font-size:.85rem;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --void:#FBFAF8; --line:#E4E0D8; --soft:#F3F1EC;
+            --text:#2A2E35; --bone:#14171C; --muted:#5C6672; --dim:#79828E;
+            --amber:#A76A11; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>SC AIO</h1>
+    <p class="sub">Support &amp; contact</p>
+  </header>
+
+  <p>
+    SC AIO is an <strong>unofficial</strong> companion app for Star Citizen. It is
+    not made by, endorsed by, or affiliated with Cloud Imperium Games or Roberts
+    Space Industries.
+  </p>
+
+  <h2>Get in touch</h2>
+  <div class="card">
+    <p style="margin:0">
+      Questions, bugs, or a number that looks wrong:<br>
+      <a href="mailto:kyle4236@msn.com">kyle4236@msn.com</a>
+    </p>
+  </div>
+  <p class="note">
+    If you are reporting something that looks incorrect, the screen name and
+    what you expected to see is usually enough to find it.
+  </p>
+
+  <h2>Privacy</h2>
+  <p>
+    The app collects nothing. There is no account, no sign-in, no analytics and
+    no advertising. Your fleet, your tracked items and your settings are stored
+    on your device only and are never sent anywhere.
+  </p>
+
+  <h2>Where the data comes from</h2>
+  <p>Everything the app shows is drawn from publicly available sources:</p>
+  <ul>
+    <li>
+      <strong>Roberts Space Industries</strong> — ship specifications, pledge
+      store listings, patch notes, comm-links and dev tracker posts.
+    </li>
+    <li>
+      <strong>Star Citizen Wiki</strong> — component statistics, loadouts,
+      crafting and commodity data. Available under
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+    </li>
+  </ul>
+  <p class="note">
+    Game data changes with every patch and is gathered automatically, so figures
+    can lag behind the live build. Nothing here should be treated as
+    authoritative — check in game before committing real money to a run.
+  </p>
+
+  <h2>Known limits</h2>
+  <ul>
+    <li>Some vehicles and components have no artwork because none is published upstream.</li>
+    <li>A few hulls have no loadout data for the same reason.</li>
+    <li>Prices reflect the most recent successful reading, not a live feed.</li>
+  </ul>
+
+  <footer>
+    &copy; 2026 Kyle Szoke. Star Citizen&reg; and Roberts Space Industries&reg;
+    are trademarks of Cloud Imperium Rights LLC. Used here for identification
+    only.
+  </footer>
+
+</div>
+</body>
+</html>
